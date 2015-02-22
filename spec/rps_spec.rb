@@ -41,6 +41,11 @@ describe('String#beats?') do
                   it("returns false if scissors is the object and scissors is the argument") do
                     expect("scissors".beats?("scissors")).to(eq("draw"))
                   end
+                  describe('String#beats?') do
+                    it("returns false if either field is left empty") do
+                      expect(" ".beats?(" ")).to(eq(false))
+                    end
+                  end
                 end
               end
             end

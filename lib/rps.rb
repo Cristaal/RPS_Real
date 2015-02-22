@@ -1,8 +1,10 @@
 class String
-  def beats?(player_2) 
+  def beats?(player_2)
     player_1 = self
     results = ""
-    if player_1.==("rock") && player_2.==("scissors") ||
+    if player_1.empty? || player_2.empty?
+      return false
+    elsif player_1.==("rock") && player_2.==("scissors") ||
       player_1.==("paper") && player_2.==("rock") ||
       player_1.==("scissors") && player_2.==("paper")
       return true
