@@ -5,15 +5,13 @@ class String
     if player_1.==("rock") && player_2.==("scissors") ||
       player_1.==("paper") && player_2.==("rock") ||
       player_1.==("scissors") && player_2.==("paper")
-      return "Player 1 wins"
-    elsif player_1.==("rock") && player_2.==("paper") ||
-      player_1.==("paper") && player_2.==("scissors") ||
-      player_1.==("scissors") && player_2.==("rock")
-      return "Player 2 wins"
+      return true
     elsif player_1.==("scissors") && player_2.==("scissors") ||
       player_1.==("paper") && player_2.==("paper") ||
       player_1.==("rock") && player_2.==("rock")
       return "draw"
+    else
+      return false
     end
     results
   end

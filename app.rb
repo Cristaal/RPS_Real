@@ -3,22 +3,20 @@ require('sinatra/reloader')
 require('./lib/rps')
 also_reload('lib/**/*.rb')
 
-get('/form') do
+get('/') do
   erb(:form)
 end
 
 get('/answer') do
-  @answer = params.fetch('first_field').beats?(params.fetch('second_field'))
+  @player1 = params.fetch('player1')
+  @player2 = params.fetch('player2')
+  results = params.fetch('player1').beats?(params.fetch('player2'))
+    if results == true
+      @results = "Player 1 wins"
+    elsif results == false
+      @results = "Player 2 wins"
+    else
+      @results = "Draw"
+    end
   erb(:answer)
 end
-
-# get('/rps') do
-#   @rps = params.fetch('player_1').beats?(params.fetch('player_2'))
-#   erb(:beats?)
-# end
-#
-# get('/something') do
-#   @player_1 = params.fetch('player_1')
-#   @player_2 = params.fetch('player_2')
-#   erb()
-# end
