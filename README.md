@@ -7,7 +7,7 @@ Run '$ gem install pry'
 
 
 Launch Sinatra app with '$ ruby app.rb'
-Launch database with '$ postgres'
+
 
 Go to https://local:host4567/
 
