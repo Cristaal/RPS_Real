@@ -14,4 +14,4 @@ Go to https://local:host4567/
 GPL v2 Copyright 2015 Crystal Contreras-Grossman
 
 Known bugs:
-Does not account for empty fields entered. If any or either field is left blank, it returns that player two has won.
+No known bugs at this time
