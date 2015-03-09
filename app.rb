@@ -7,7 +7,7 @@ get '/' do
   erb(:form)
 end
 
-get '/answer' do
+get ('/answer') do
   @player1 = params.fetch('player1')
   @player2 = params.fetch('player2')
   results = params.fetch('player1').beats?(params.fetch('player2'))
