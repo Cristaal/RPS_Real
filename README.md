@@ -7,25 +7,17 @@ A Rock, Paper, Scissors ruby app that allows two players to enter either "rock",
 Written using Ruby 2.1.5p273
 
 <h2>Installation</h2>
-Clone the app from the repository
-<br>
 Run '$ gem install rspec'
-<br>
 Run '$ gem install pry'
-<br>
+
+
 Launch Sinatra app with '$ ruby app.rb'
-<br>
-Open your browser to localhost:4567
+
+open the file and launch the triangle-maker.html file in your browser
 
 <h2>License</h2>
 
 GPL v2 Copyright 2015 Crystal Contreras-Grossman
-
-<h2>Motivation</h2>
-<ul>
-<li>To practice Ruby fuctions</li>
-<li>User input validations</li>
-</ul>
 
 <h2>Known bugs:</h2>
 No known bugs at this time
