@@ -7,6 +7,7 @@ A Rock, Paper, Scissors ruby app that allows two players to enter either "rock",
 Written using Ruby 2.1.5p273
 
 <h2>Installation</h2>
+Clone the app from the repository
 <br>
 Run '$ gem install rspec'
 <br>
