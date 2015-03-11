@@ -1,17 +1,19 @@
-# RPS_Real
-A Rock, Paper, Scissors ruby app that allows two players to play and see who won
+<h1>RPS_Real</h1>
+
+By Crystal Contreras-Grossman
+
+A Rock, Paper, Scissors ruby app that allows two players to enter either "rock", "paper", or "scissors" and see who won. If both players have the same entry, the game is declared a draw. If either player fails to enter anything, the app will prompt them to enter their selection.
 
 Written using Ruby 2.1.5p273
 
-Run '$ gem install bundler'
+<h2>Installation</h2>
 Run '$ gem install rspec'
 Run '$ gem install pry'
 
 
 Launch Sinatra app with '$ ruby app.rb'
 
-
-Go to https://local:host4567/
+open the file and launch the triangle-maker.html file in your browser
 
 GPL v2 Copyright 2015 Crystal Contreras-Grossman
 
