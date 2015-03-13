@@ -1,0 +1,11 @@
+body {
+  background-color: #C9B5BE;
+}
+input[type=text]{
+  border-radius:10px;
+}
+.wpcf7 input[type=text] {
+  width:180px;
+  margin-bottom:5px;
+  font-size:11px;
+}
