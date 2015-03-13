@@ -17,7 +17,7 @@ open the file and launch the triangle-maker.html file in your browser
 
 <h2>License</h2>
 
-GPL v2 Copyright 2015 Crystal Contreras-Grossman
+MIT License Copyright 2015 Crystal Contreras-Grossman
 
 <h2>Known bugs:</h2>
 No known bugs at this time
