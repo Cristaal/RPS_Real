@@ -19,5 +19,8 @@ open the file and launch the triangle-maker.html file in your browser
 
 MIT License Copyright 2015 Crystal Contreras-Grossman
 
+<h2>Motivation</h2>
+  <ul>Practice Ruby functions</ul>
+
 <h2>Known bugs:</h2>
 No known bugs at this time
